@@ -1,0 +1,25 @@
+{
+  "name": "signatura-backup",
+  "version": "0.1.0",
+  "description": "Descarga todos los documentos de un espacio de trabajo de Signatura.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "signatura-backup": "./bin/signatura-backup.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node bin/signatura-backup.js",
+    "build": "node scripts/build.js",
+    "test": "node --no-warnings=ExperimentalWarning --test \"test/**/*.test.js\""
+  },
+  "license": "UNLICENSED",
+  "files": [
+    "bin",
+    "src",
+    "scripts",
+    "README.md"
+  ]
+}
